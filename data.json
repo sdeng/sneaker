@@ -1,4 +1,20 @@
 {
     "Name": "Miguel",
-    "Engine": "Aunt Joanne"
+    "Engine": "Aunt Joanne",
+
+    "generator": [
+        {
+            "template": "/beer-money/gallery/photo.html",
+            "pages": [
+                {
+                    "name": "/gallery/photo1/",
+                    "data": {
+                        "title": "Photo 1",
+                        "description": "MooooOOO!",
+                        "painting": "http://chrisbishop.com/images/paintings/derangement.jpg"
+                    }
+                }
+            ]
+        }
+    ]
 }

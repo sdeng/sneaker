@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+    
+    <header>
+	    <hgroup>
+	   		<h2>Paintings That Rock Your World</h2>
+	   		<h3> ~ by Chris Bishop</h3>
+	    </hgroup>
+    </header>    
+   			
+    <!-- Gallery itmem example -->
+    
+    {{+gallery_items+}}
+    
+	<article>
+		<img alt="Picture of {{title}}" src="{{painting}}" />
+	   
+	    <h3>{{title}}</h3>
+	    <p>{{description}}</p>
+	</article>
+	
+	
+       
+    
+</body>
+</html>
