@@ -1,0 +1,74 @@
+// ---------------------------------------------------
+// PBS KIDS - Brand Web Fonts
+// ---------------------------------------------------
+
+@font-face {
+	font-family: 'Colfax-Regular';
+	src: url('../../fonts/ColfaxWebRegular.eot'); /* IE9 Compat Modes */
+	src: url('../../fonts/ColfaxWebRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../../fonts/ColfaxWebRegular.woff') format('woff'); /* Modern Browsers */
+	}
+
+@font-face {
+	font-family: 'Colfax-Regular';
+	font-style: italic;
+	src: url('../../fonts/ColfaxWebRegularItalic.eot'); /* IE9 Compat Modes */
+	src: url('../../fonts/ColfaxWebRegularItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../../fonts/ColfaxWebRegularItalic.woff') format('woff'); /* Modern Browsers */
+	} 
+	
+@font-face {
+	font-family: 'Colfax-Medium';
+	src: url('../../fonts/ColfaxWebMedium.eot'); /* IE9 Compat Modes */
+	src: url('../../fonts/ColfaxWebMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../../fonts/ColfaxWebMedium.woff') format('woff'); /* Modern Browsers */
+	}
+
+@font-face {
+	font-family: 'Colfax-Medium';
+	font-style: italic;
+	src: url('../../fonts/ColfaxWebMediumItalic.eot'); /* IE9 Compat Modes */
+	src: url('../../fonts/ColfaxWebMediumItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../../fonts/ColfaxWebMediumItalic.woff') format('woff'); /* Modern Browsers */
+	}
+	
+@font-face {
+	font-family: 'Colfax-Bold';
+	src: url('../../fonts/ColfaxWebBold.eot'); /* IE9 Compat Modes */
+	src: url('../../ColfaxWebBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../../ColfaxWebBold.woff') format('woff'); /* Modern Browsers */
+	} 
+
+@font-face {
+	font-family: 'Colfax-Bold';
+	font-style: italic;
+	src: url('../../fonts/ColfaxWebBoldItalic.eot'); /* IE9 Compat Modes */
+	src: url('../../fonts/ColfaxWebBoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../../fonts/ColfaxWebBoldItalic.woff') format('woff'); /* Modern Browsers */
+	}  
+
+// PBS KIDS Font Stacks -  LESS Mixins
+
+#kidsfont {
+  .regular(@style: normal, @weight: normal, @size: 16px, @lineHeight: 1.4) {
+    font-family: Colfax-Regular, Arial, Helvetica, sans-serif;
+    font-size: @size;
+    font-weight: @weight;
+    line-height: @lineHeight;
+    font-style: @style;
+  }
+  .medium(@style: normal, @weight: normal, @size: 16px, @lineHeight: 1.4) {
+    font-family: Colfax-Medium, Arial, Helvetica, sans-serif;
+    font-size: @size;
+    font-weight: @weight;
+    line-height: @lineHeight;
+    font-style: @style;
+  }
+  .bold(@style: normal, @weight: normal, @size: 16px, @lineHeight: 1.4) {
+    font-family: Colfax-Bold, Arial, Helvetica, sans-serif;
+    font-size: @size;
+    font-weight: @weight;
+    line-height: @lineHeight;
+    font-style: @style;
+  }
+}

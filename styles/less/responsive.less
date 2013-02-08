@@ -1,0 +1,65 @@
+//////////
+// GRID //
+//////////
+
+// Specify the number of columns and set column and gutter widths
+@columns: 16;
+@column-width: 60;
+@gutter-width: 20;
+
+// Remove the definition below for a pixel-based layout
+@total-width: 100%;
+
+
+// 480px
+@media only screen and (min-width: 480px) {
+}
+
+// 600px
+@media only screen and (min-width: 600px) {
+}
+
+// 768px
+@media only screen and (max-width: 768px) {
+    .hero-box {	
+	  h1{
+	    font-size: 3em;
+	  }
+	  .lead{
+	    font-size: 1.125em;
+	  }
+	}
+}
+
+// 992px
+@media only screen and (max-width: 992px) {
+	.hero-box {	
+	  h1{
+	  }
+	  .lead{
+	  	min-width: 360px;
+	    max-width: 480px;
+	  }
+	}
+}
+
+// 1250px
+@media only screen and (max-width: 1250px) {
+	.hero-box {
+		
+	  h1{
+	    .center-block;
+	    min-width: 360px;
+	    max-width: 480px;
+	  }
+	  .lead{
+	  	.column(9);
+	  	.center-block;
+	  	margin-top: @baseline;
+	  }
+	}
+}
+
+// 1382px
+@media only screen and (min-width: 1382px) {
+}
